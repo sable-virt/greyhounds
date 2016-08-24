@@ -12,12 +12,19 @@
     "mkdirp": "^0.5.1",
     "update-notifier": "^1.0.2"
   },
+  "devDependencies": {
+    "espower-loader": "^1.0.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1",
+    "rimraf": "^2.5.4"
+  },
   "bin": {
     "greyhounds": "bin/index.js",
     "ghs": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require intelli-espower-loader -R spec ./test/index.js"
   },
   "repository": {
     "type": "git",
