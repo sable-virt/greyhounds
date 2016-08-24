@@ -13,7 +13,7 @@
     "update-notifier": "^1.0.2"
   },
   "bin": {
-    "greuhounds": "bin/index.js",
+    "greyhounds": "bin/index.js",
     "ghs": "bin/index.js"
   },
   "scripts": {
