@@ -1,16 +1,16 @@
-# Template Downloader
+# greyhounds
 
-Download from github & execute `npm install` command
+Generate template from github & execute `npm install` command
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHMSywFQDJM" frameborder="0" allowfullscreen></iframe>
 
 ## Command
 
 ```
-tdl <APP_NAME>
-tdl <APP_NAME> --preset wp
-tdl <APP_NAME> --preset frontplate
-tdl <APP_NAME> --github frontainer/greyhounds
+ghs <APP_NAME>
+ghs <APP_NAME> --preset wp
+ghs <APP_NAME> --preset frontplate
+ghs <APP_NAME> --github frontainer/greyhounds
 ```
 
 ## Options
