@@ -1,8 +1,8 @@
 #!/usr/bin/env node
+'use strict';
 /**
  * cli.js
  */
-
 const pkg = require('../package.json');
 const updateNotifier = require('update-notifier');
 updateNotifier({pkg}).notify();
