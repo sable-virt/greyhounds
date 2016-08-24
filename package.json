@@ -1,6 +1,6 @@
 {
   "name": "greyhounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI of Generate development environment for front-end developers",
   "main": "index.js",
   "dependencies": {
